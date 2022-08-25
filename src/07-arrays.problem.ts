@@ -3,6 +3,9 @@ interface User {
   firstName: string;
   lastName: string;
   role: "admin" | "user" | "super-admin";
+  /**
+   * How do we ensure that posts will ALWAYS be an array of Posts?
+   */
   posts: Post;
 }
 
